@@ -42,12 +42,12 @@ namespace Veterinario
 
         }
 
-        public String InsertaUsuario(String DNI, String Nombre, String Pass)
+        public String insertaUsuario(String DNI, String Nombre, String Pass)
         {
             try
             {
                 conexion.Open();
-                MySqlCommand consulta = new MySqlCommand("INSERT INTO usuario (id, DNI, Nombre, Pass) VALUES (NULL, @DNI, @Nombre, @Pass)");
+                MySqlCommand consulta = new MySqlCommand("INSERT INTO usuario (id, DNI, Nombre, Pass) VALUES (NULL, @DNI, @Nombre, @Pass)",conexion);
                 consulta.Parameters.AddWithValue("@DNI", DNI);
                 consulta.Parameters.AddWithValue("@Nombre", Nombre);
                 consulta.Parameters.AddWithValue("@Pass", Pass);

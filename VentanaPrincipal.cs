@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Veterinario
 {
@@ -33,9 +34,9 @@ namespace Veterinario
 
         }
 
-        private void insertaUsuario_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(conexion.InsertaUsuario(textBoxDNI.Text, textBoxNombre.Text, textBoxPass.Text));
+            MessageBox.Show(conexion.insertaUsuario(textBoxDNI.Text, textBoxNombre.Text, textBoxPass.Text));
         }
     }
 }
