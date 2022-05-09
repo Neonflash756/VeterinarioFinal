@@ -110,73 +110,69 @@ namespace Veterinario
             // 
             // insertaUsuario
             // 
-            this.insertaUsuario.Location = new System.Drawing.Point(161, 178);
+            this.insertaUsuario.Location = new System.Drawing.Point(129, 185);
             this.insertaUsuario.Name = "insertaUsuario";
             this.insertaUsuario.Size = new System.Drawing.Size(175, 88);
-            this.insertaUsuario.TabIndex = 14;
+            this.insertaUsuario.TabIndex = 21;
             this.insertaUsuario.Text = "Insertar Usuario";
             this.insertaUsuario.UseVisualStyleBackColor = true;
-            this.insertaUsuario.Click += new System.EventHandler(this.insertaUsuario_Click);
             // 
             // textBoxNombre
             // 
-            this.textBoxNombre.Location = new System.Drawing.Point(161, 62);
+            this.textBoxNombre.Location = new System.Drawing.Point(129, 69);
             this.textBoxNombre.Name = "textBoxNombre";
             this.textBoxNombre.Size = new System.Drawing.Size(175, 20);
-            this.textBoxNombre.TabIndex = 13;
-            this.textBoxNombre.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
+            this.textBoxNombre.TabIndex = 20;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(105, 65);
+            this.label3.Location = new System.Drawing.Point(73, 72);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 13);
-            this.label3.TabIndex = 12;
+            this.label3.TabIndex = 19;
             this.label3.Text = "Nombre";
             // 
             // textBoxPass
             // 
-            this.textBoxPass.Location = new System.Drawing.Point(161, 88);
+            this.textBoxPass.Location = new System.Drawing.Point(129, 95);
             this.textBoxPass.Name = "textBoxPass";
             this.textBoxPass.Size = new System.Drawing.Size(175, 20);
-            this.textBoxPass.TabIndex = 11;
-            this.textBoxPass.TextChanged += new System.EventHandler(this.textBoxPass_TextChanged);
+            this.textBoxPass.TabIndex = 18;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(84, 91);
+            this.label2.Location = new System.Drawing.Point(52, 98);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 13);
-            this.label2.TabIndex = 10;
+            this.label2.TabIndex = 17;
             this.label2.Text = "Contraseña";
             // 
             // textBoxDNI
             // 
-            this.textBoxDNI.Location = new System.Drawing.Point(161, 36);
+            this.textBoxDNI.Location = new System.Drawing.Point(129, 43);
             this.textBoxDNI.Name = "textBoxDNI";
             this.textBoxDNI.Size = new System.Drawing.Size(175, 20);
-            this.textBoxDNI.TabIndex = 9;
-            this.textBoxDNI.TextChanged += new System.EventHandler(this.textBoxDNI_TextChanged);
+            this.textBoxDNI.TabIndex = 16;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(126, 39);
+            this.label1.Location = new System.Drawing.Point(94, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(26, 13);
-            this.label1.TabIndex = 8;
+            this.label1.TabIndex = 15;
             this.label1.Text = "DNI";
             // 
-            // Form1
+            // VentanaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "VentanaPrincipal";
             this.Text = "Form1";
             this.tabControl1.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
